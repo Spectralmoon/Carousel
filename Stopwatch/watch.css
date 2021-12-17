@@ -36,28 +36,40 @@ body {
 }
 
 .watch {
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
   /* background-color: var(--darkdark); */
   /* width: 100%; */
   padding-top: 2rem;
   border-radius: 1rem;
-  grid-column: 1;
+  /* grid-column: 1;
   grid-row: 1;
-  grid-gap: 1em;
+  grid-gap: 1em; */
   z-index: 1;
-
-  /* display: flex;
-  justify-content: center;
+  display: flex;
+  /* justify-content: center;
   align-items: center;
 } */
 }
+/* .time {
+  width: 300px;
+  height: 100px;
+  text-align: left;
+}
+.watch {
+  width: 400px;
+  height: 120px;
+  padding-left: 70px;
+} */
 
 .watch .time {
   font-weight: 300;
 }
 .digit {
-  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
 }
 .controls {
   display: flex;
